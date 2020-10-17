@@ -1,0 +1,146 @@
+body{
+   padding: 0px;
+   margin: 0px;
+    background-color: black;
+    background-image: url("./dj-4595492.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+
+   
+   
+}
+.header{
+    margin-top: 27px;
+    font-size: large;
+    text-decoration: none;
+}
+.logo{
+    float: left;
+    margin-top: -24px;
+    background-image: url("./sprites.png");
+    background-position: -1px 59px;
+   height: 50px;
+   width: 120px;
+   float: left;
+}
+.leftmenu{
+    float: left;
+    margin-left: 90px;
+    margin-top: -5px;
+    color: white;
+    display: block
+}
+.rightmenu{
+    margin-left: 1224px;
+    margin-top: 25px;
+    display: block
+   
+}
+#photo{
+    margin-right: 28px;
+    color: white;
+    text-decoration: none;
+
+}
+#illu{
+    margin-right: 28px;
+    color: white;
+text-decoration: none;
+}
+#vector{
+    margin-right: 28px;
+    color: white;
+    text-decoration: none;
+
+}
+#video{
+    margin-right: 28px;
+    color: white;
+    text-decoration: none;
+}
+#dot{
+    margin-right: 28px;
+    color: white;
+
+}
+#Explore{
+    margin-right: 28px;
+    color: white;
+    text-decoration: none;
+}
+#Login{
+    margin-right: 28px;
+    color: white;
+    text-decoration: none;
+}
+#signup{
+    margin-right: 28px;
+    color: white;
+    text-decoration: none;
+}
+.middele{
+    margin-top: 10%;
+}
+.headiing{
+    color: white;
+    margin-left: 30%;
+    margin-top: 16%;
+    font-size: 38px
+
+}
+.heading3{
+    margin-left: 29%;
+    color: white;
+}
+.q{
+    margin-left: 30%;
+    border-radius: 8px;
+    width: 660px;
+    height: 55px;
+}
+.heading4{
+color: gray;
+margin-left: 31%;
+}
+::placeholder{
+    text-align: center ;
+}
+.fas{
+    float: left;
+    position: absolute;
+    font-size: 22px;
+    top: 45%;
+    padding: 3px;
+    right: 1027px;
+    color: #9e9898;
+}
+.lower{
+    background-color: white;
+    overflow: auto;
+
+    
+}
+#concert{
+    display: block;
+    width: 30%;
+    margin-top:0%;
+    padding: 10px 12px 18px;
+    float: left;
+}
+#baby{
+    display: block;
+    width: 35%;
+    margin-top: 0%;
+    padding: 10px 12px 18px;
+    float: left;
+}
+#fire{
+    display: block;
+    width: 30%;
+    margin-top: 0%;
+    padding: 10px 12px 18px;
+    float: left;
+}

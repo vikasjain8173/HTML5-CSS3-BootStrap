@@ -1,0 +1,83 @@
+/*table {
+    border: 1px solid;
+    width: 100%;
+}
+*/
+/*body{
+    background: #ccc;
+}
+section{
+    background: #ccc;
+    width: 30%;
+    margin: 10px;
+}
+section img{
+    width: 100%;
+}
+section h1{
+    font-size: 20px;
+
+}
+section p{
+    padding: 20px0;
+    font-size: 17px;
+}
+button{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 10px;
+    
+}*/
+span.time{
+    background:green;
+    display: inline-block;
+    position: absolute;
+    right: 8px;
+    top: 6px;
+    color: white;
+    padding: 3px 7px;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+/*-------from music.cssstlye---*/
+body{
+    
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    clear: both;
+    
+    
+}
+body a{
+    text-decoration: none;
+}
+#header{
+    background-color: teal;
+    
+}
+.small_img{
+    width: 100px;
+    float: left;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1000px;
+margin-left: auto;
+margin-right: auto;
+}
+.card-text{
+    max-height: 250px;
+    max-width: 250px;
+    overflow: scroll;
+    float: left;
+}

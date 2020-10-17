@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap-4.3.1-dist/css/bootstrap.css">
+    <style>
+        .image-preview{
+            width: 300px;
+            min-height: 100px;
+            border: 1px solid black;
+            margin-top: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+color: red;
+        }
+        .image-preview__image{
+            display: none;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+<h1>Image Preview on file upload </h1>
+<input type="file" name="inpFile" id="inpFile">
+    <div class="image-preview" id="imagePreview">
+        <img src="" alt="image Preview" class="image-preview__image">
+        <span class="image-preview__default-text"> uploaded Image is here </span>
+    </div>
+
+
+<script>
+const inpFile = document.getElementById("inpFile");
+const previewContainer  = document.getElementById("imagePreview");
+const previewImage = previewContainer.querySelector(".image-preview__image");
+const previewDefaultText =previewContainer.querySelector(".image-preview__default-text");
+
+inpFile.addEventListener("change",function(){
+    const file =this.files[0];
+   
+    console.log(file);
+    if(file===undefined){
+        alert("choose the file first")
+    }
+    if(file)
+    {
+        const reader =new FileReader();
+
+    previewDefaultText.style.display = "none";
+    previewImage.style.display ="block";
+    reader.addEventListener("load", function(){
+        previewImage.setAttribute("src",this.result);
+    });
+    reader.readAsDataURL(file);
+
+    }
+    else{
+        previewDefaultText.style.display = "null";
+    previewImage.style.display ="null";
+    previewImage.setAttribute("src", " ")
+    }
+})
+
+</script>
+
+
+</body>
+</html>
+
+
+
